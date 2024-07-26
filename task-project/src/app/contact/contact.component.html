@@ -1,0 +1,11 @@
+<div class="center">
+    <div class="login-form">
+        <h2>Your Information</h2>
+        <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+            <input type="text" id="name" name="name" placeholder="Name" ngModel required>
+            <input type="email" id="email" name="email" placeholder="Email" ngModel required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" ngModel required>
+            <button type="submit" [disabled]="!loginForm.valid">Submit</button>
+        </form>
+    </div>
+    </div>

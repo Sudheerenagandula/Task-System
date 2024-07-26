@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    background: url("../../assets/AdobeStock_251837407_Preview.jpeg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   width: auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-item {
+    margin-right: 10px;
+}
+
+.large-icon {
+    font-size: 2.5em; /* Increase the size of the user profile icon */
+}
+
+.uname {
+    font-size: 1.2em;
+}
+
+.main div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main div:hover {
+    background-color: #f4fd00;
+}
+
+.main div mat-icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.main div span {
+    font-size: 1em;
+}
+
+.main div.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.main div.selected mat-icon,
+.main div.selected span {
+    color: #fff;
+}
